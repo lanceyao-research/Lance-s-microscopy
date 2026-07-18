@@ -13,8 +13,8 @@ This project provides:
 This enables researchers and developers to:
 
 - Prototype automation scripts before running them on expensive instruments
-- Generate synthetic training data for ML/AI models
-- Test image processing pipelines with controllable noise parameters
+- Generate synthetic training data for RL/AI models
+- Test real-time image processing pipelines with controllable noise parameters
 - Develop stage navigation algorithms in a safe sandbox environment
 
 ## Features
