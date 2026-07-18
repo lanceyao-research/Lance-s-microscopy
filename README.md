@@ -86,6 +86,7 @@ from autoscript_tem_microscope_client_doppelganger import StageVelocity
 microscope.specimen.stage.start_jogging(StageVelocity(x=1e-6))  # 1 µm/s in x
 microscope.specimen.stage.stop_jogging()
 ```
+<img width="675" height="595" alt="image" src="https://github.com/user-attachments/assets/ac5735af-ff18-4f94-9de9-9add0bdf1bb6" />
 
 ### GUI Controls
 
@@ -114,20 +115,6 @@ The doppelganger API mirrors key parts of the real `autoscript_tem_microscope_cl
 | `optics.magnification.increase()` | ✅ | Implemented |
 | Image acquisition | ❌ | Not yet implemented |
 
-## Configuration
-
-Settings are persisted in `microscopy_config.json`:
-
-```json
-{
-  "mode": "TEM",
-  "fps": 30.0,
-  "poisson_k": 100.0,
-  "gaussian_std": 0.02,
-  "percentile_low": 1.0,
-  "percentile_high": 99.0
-}
-```
 
 ## License
 
