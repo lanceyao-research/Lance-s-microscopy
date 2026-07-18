@@ -1,0 +1,9 @@
+{
+  "mode": "STEM",
+  "fps": 1.946078431372549,
+  "noise": 0.1,
+  "percentile_low": 0.01,
+  "percentile_high": 99.99,
+  "poisson_k": 749.8942093324558,
+  "gaussian_std": 0.016666666666666666
+}
